@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+<script>
+function my()
+    {   
+          username=document.getElementById("a").value
+          password=document.getElementById("b").value
+
+          if (username=="9876543210" && password=="LPU" ||username=="9785642136" && password=="UPL" ||username=="5648976541" && password=="Lovely" ||username=="8975441235" && password=="University" ||username=="8974565455" && password=="Professional" ||username=="9784653246" && password=="LPU@1234" ||username=="2558987864" && password=="abcd@1234" ||username=="9875465416" && password=="efgf@1234" ||username=="abcd@gmail.com" && password=="zyx@1234" ||username=="asdfg@gmail.com" &&password=="LOVELY"  ||username=="lpu@yahoo.com" &&password=="LPUniversity"  ||username=="cse@hotmail.com" &&password=="Lpu@10"  ||username=="Btech2017@yahoo.com" &&password=="2017@lpu"  ||username=="6543846897" &&password=="Abcd!123" ||username=="9874515466" && password=="sdp@emergency")
+           {
+               window.location.href="Home page.html";
+           }
+        else
+         {
+           alert("Incorrent credentials")
+          }
+}
+</script>
+</head>
+    <body>
+    <div class="login-box">
+    <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+            <form action="Home page.html">
+            <p>Username</p>
+            <input type="text" name="username" id=a placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" id=b placeholder="Enter Password">
+      	    <input type="button" value="submit" onclick="my()" >
+            </form>
+        
+        
+        </div>
+
+
+    </body>
+</html>
