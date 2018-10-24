@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CINEMA
+</title>
+<style>
+a:link{
+color:white;
+text-decoration:none;
+}
+a:visited
+{
+text-decoration:none;
+color:white;
+}
+a:hover
+{
+color:yellow;
+text-decoration:Underline;
+}
+a:active
+{
+color:blue
+text-decoration:none;
+}
+.grid-container
+{
+display:grid;
+grid-template-areas:
+' dv dv '
+' div2 div3 '
+' di di'
+}
+.item1{grid-area:dv;}
+.item2{grid-area:div2;}
+.item3{grid-area:div3;}
+.item4{grid-area:di;}
+.grid-container>dv
+{
+color:#c9963e;
+font-family:Time new roman
+text-align:center;
+font-size:20px;
+background-color:black;
+}
+.grid-container>di
+{
+color:#c9963e;
+font-family:Time new roman
+text-align:center;
+font-size:20px;
+background-color:black;
+}
+.grid-container>div
+{
+font-size:21px;
+color:white;
+background-color:rgba(0,0,0,0.5);
+font-family:Times new roman;
+text-align: center;
+padding:20px;
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 130px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(10);
+}
+table,td
+{
+text-align:center;
+font-size:18px;
+padding-left:1px;
+padding:33px;
+background-color:black;
+color:white;
+border-collapse:collapse;
+}
+th
+{
+font-size:20px;
+color:yellow;
+}
+body
+{
+background-image:url("gh.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+</style>
+</head>
+<body>
+<center>
+<div class="grid-container">
+<dv class="item1">
+<img src="logo.png" width="100px" height="130px";>
+<p>Accuiel Cinemas</p>
+<marquee>"Take Mouse over the images for Zoom in"</marquee>
+</dv>
+<div class="item2">
+<h2>location</h2>
+<select id="g">
+<option  value="1" >Jalandhar</option>
+<option value="2">Delhi</option>
+<option value="3">Phagwara</option>
+<option value="4">Amritsar</option></select><br><br><br>
+<h2>Cinemas</h2><br><select>
+<option  value="5" >PVR cinemas-Jalandhar</option>
+<option value="6">PVR MBD Mall-Jalandhar</option>
+<option value="7">
+Sarb Multiplex-Jalandhar </option>
+<option value="8">Carnival-Jalandhar</option>
+<option  value="9" >INOX-Amritsar</option>
+<option value="10">CINEPOILS-Amritsar</option>
+<option value="11">SANGAM-Amritsar</option>
+<option value="12">ADARSH-Amritsar</option>
+
+<option  value="13" >ASMITA-Dehli</option>
+<option value="14">AMBA-Dehli</option>
+<option value="15">DELITE-Dehli</option>
+<option value="16">NARAINA-Dehli</option>
+
+<option  value="17" >ELITE-Phagwara</option>
+</select>
+</div>
+<div class="item3">Amritsar&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Phagwara&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Jalandhar&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Dehli&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br><abbr title="AMRITSAR">
+<img class="zoom" src="amritsar.png"width="150px" height="50px"></abbr><abbr title=PHAGWARA>
+<img class="zoom" src="phagwara.png"width="150px" height="50px"></abbr><abbr title=JALANDHAR>
+<img class ="zoom" src="jalandhar.png"width="150px" height="50px"></abbr><abbr title=DELHI>
+<img class="zoom" src="delhi.png"width="150px" height="70px"></abbr>
+</div>
+<di class="item4">
+<table><tr>
+<th>GENERAL</th>
+<td><a href="Home page.html">Home</a></td>
+<td><a href="feedback.html">About us</a></td>
+<td><a href="feedback.html">Contacts</a></td>
+<td><a href="feedback.html">Feedback</a></td>
+</tr>
+</tr>
+<tr>
+<th>CINEMAs</th>
+<td><a href="Magazine.html">Magazine</a></td>
+<td><a href="More.html">Now Showing</a></td>
+<td><a href="More.html">Books</a></td>
+<td><a href="More.html">Upcoming</a></td>
+<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>--</td>
+<td><a href="https://www.instagram.com"><img src="insta.PNG" width="32px" height=37px"></a><a href="https://www.facebook.com">
+<img src="fb.PNG" width="32px" height="37px"></a><a href="http://mail.google.com/mail">
+<img src="gmail.PNG" width="35px" height="40px"></a></td>
+<td>--</td>
+</tr>
+</di>
+
+</body>
+</html>
