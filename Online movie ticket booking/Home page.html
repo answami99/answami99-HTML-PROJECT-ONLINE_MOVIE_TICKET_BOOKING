@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CINEMAs
+</title>
+<style>
+a:link{
+color:white;
+text-decoration:none;
+}
+a:visited
+{
+text-decoration:none;
+color:white;
+}
+a:hover
+{
+color:yellow;
+text-decoration:Underline;
+}
+a:active
+{
+color:blue
+text-decoration:none;
+}
+.grid-container
+{
+display:grid;
+grid-template-areas:
+'divl divl divl divl divl divl divl divl divl'
+'di1 di2 di3 di4 di5 di6 di7 di8 di9'
+'divv divv divv divv divv dv10 dv10 dv10 dv10'
+'divv divv divv divv divv dv11 dv11 dv11 dv11'
+'divv divv divv divv divv dv12 dv12 dv12 dv12'
+'divv divv divv divv divv dv13 dv13 dv13 dv13'
+'divv divv divv divv divv dv14 dv14 dv14 dv14'
+'divv divv divv divv divv div15 div15 div15 div15'
+'div16 im17 im18 im19 im20 im21 div22 div23 div24'
+'div25 im26 im27 im28 im29 im30 div31 div32 div33'
+'div34 im35 im36 im37 im38 im39 div40 div41 div42'
+'divb divb divb divb divb divb divb divb divb'
+
+}
+.item0{grid-area:divl;}
+.item1{grid-area:di1;}
+.item2{grid-area:di2;}
+.item3{grid-area:di3;}
+.item4{grid-area:di4;}
+.item5{grid-area:di5;}
+.item6{grid-area:di6;}
+.item7{grid-area:di7;}
+.item8{grid-area:di8;}
+.item9{grid-area:di9;}
+.item10{grid-area:dv10;}
+.item11{grid-area:dv11;}
+.item12{grid-area:dv12;}
+.item13{grid-area:dv13;}
+.item14{grid-area:dv14;}
+.item15{grid-area:div15;}
+.item16{grid-area:divv;}
+.item17{grid-area:div16;}
+.item18{grid-area:im17;}
+.item19{grid-area:im18;}
+.item20{grid-area:im19;}
+.item21{grid-area:im20;}
+.item22{grid-area:im21;}
+.item23{grid-area:div22;}
+.item24{grid-area:div23;}
+.item25{grid-area:div24;}
+.item26{grid-area:div25;}
+.item27{grid-area:im26;}
+.item28{grid-area:im27;}
+.item29{grid-area:im28;}
+.item30{grid-area:im29;}
+.item31{grid-area:im30;}
+.item32{grid-area:div31;}
+.item33{grid-area:div32;}
+.item34{grid-area:div33;}
+.item35{grid-area:div34;}
+.item36{grid-area:im35;}
+.item37{grid-area:im36;}
+.item38{grid-area:im37;}
+.item39{grid-area:im38;}
+.item40{grid-area:im39;}
+.item41{grid-area:div40;}
+.item42{grid-area:div41;}
+.item43{grid-area:div42;}
+.item44{grid-area:divb;}
+.grid-container>divl
+{
+ font-size:20px;
+text-align:center;
+color:#cc8335;
+}
+.grid-container>di
+{
+background-color:#cc8335;
+color:black;
+border-color:white;
+font-family:Times new roman;
+text-align:center;
+font-size:20px;
+padding:15px
+}
+.grid-container>dv
+{
+background-color:grey;
+color:black;
+font-size:20px;
+font-family:times new roman;
+text-align:left;
+padding:15px;
+grid-gap:2px;
+}
+.grid-container>im
+{
+padding:1px;
+background-color:grey;
+}
+p{
+display:inline;
+}
+.grid-container>div
+{
+background-color:grey;
+color:Black;
+font-family:times new roman;
+text-align:center;
+font-size:20px;
+padding:22px;
+padding-top:20px
+}
+.grid-container>divb
+{
+
+background-color:black;
+padding-left:105px;
+}
+table,td
+{
+text-align:center;
+font-size:18px;
+padding-left:1px;
+padding:33px;
+color:white;
+border-collapse:collapse;
+}
+th
+{
+font-size:20px;
+color:yellow;
+}
+body
+{
+background-color:black;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<divl class="item0">
+<img src="logo.PNG" width="100px" height="130px" ><br>Accueil Cinemas<br>
+<marquee>"Welcome to our online platform Have a good day!!!"</marquee>
+</divl>
+<di class="item1">
+<a href="cccccc.html" font-color:white>Cinemas</a>
+</di>
+<di href="Magazines.html" class="item2" ><a href="Magazine.html">Magazines</a></di>
+<di href="Feedback.html" class="item3" font-color:white><a href="feedback.html">Feedback</a></di>
+<di href="Contact.html" class="item4" font-color:red><a href="feedback.html">Contact</a></di>
+<di href="Now Showing.html" class="item5" font-color:white><a href="More.html">Now Showing</a></di>
+<di href="More.html" class="item6" font-color:white><a href="More.html">Books</a></di>
+<di href="More.html" class="item7" font-color:white><a href="More.html">Upcoming</a></di>
+<di href="Location.html" class="item8" font-color:white><a href="cccccc.html">Location</a></di>
+<di href="Feedback.html" class="item9" font-color:white><a href="feedback.html">About us</a></di>
+<dv class="item10">Movie:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<select id="m">
+<option value="0">Select Movie</option>
+<option value="1">Avenger: Infinity War</option>
+<option value="2">Baaghi 2</option>
+<option value="3">High Jack</option>
+<option value="4">Raid</option>
+<option value="5">BlackMail</option>
+<option value="6">October</option>
+<option value="7">Missing</option>
+<option value="8">Hichki</option>
+</select></dv>
+<dv class="item11">
+Date:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+<input type="date" id="d" name="date1">
+</dv>
+<dv class="item12">Time:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+<select id="t">
+<option value="0">Select Show Time</option>
+<option value="1">10:45AM</option>
+<option value="2">1:00PM</option>
+<option value="3">4:00PM</option>
+<option value="3">7:30PM</option>
+<option value="3">9:45PM</option>
+</select>
+</dv>
+<dv class="item13">Number of seats:&nbsp;
+<select id="n" onchange="myf()">
+<option value="0">Select no. of seats</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+</dv>
+<dv class="item14">Type:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+<select id="b" onchange="myfn()">
+<option value="0">Select type</option>
+<option value="160">Silver-Rs.160</option>
+<option value="200">Gold-Rs.200</option>
+<option value="220">Platinum-Rs.220</option>
+</select><br><br><br>
+Total price to be paid:&ensp;<p id="q" text-align:right >0.0</p>&nbsp;Rs.
+</dv>
+<div class="item15">
+<input type="submit" id="s" onclick="func()" value="Book now" >
+</div>
+<div class="item16">
+<img class="slide" width="1000" height="500">
+</div>
+<div class="item17">
+Now Showing!!
+</div>
+<im class="item18">
+<a href="October.html"><img src="October.jpg" width="75%" height="80%">
+</a></im>
+<im class="item19">
+<a href="Missing.html"><img src="Missing.jpg" width="75%" height="80%">
+</a></im>
+<im class="item20">
+<a href="Blackmail.html"><img src="Blackmail.jpg" width="75%" height="80%">
+</a></im>
+<im class="item21">
+<a href="High jack.html"><img src="High jack.jpg" width="75%" height="80%">
+</a></im>
+<div class="item22"><a href="More.html">
+MORE!!
+</a>
+</div>
+<div class="item23">
+
+</div>
+<div class="item24">
+</div>
+<div class="item25">
+</div>
+<div class="item26">
+Books
+</div>
+<im class="item27">
+<a href="Harryp3.pdf"><img src="Harryp3.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item28">
+<a href="Elaine Wexler.pdf"><img src="Elaine Wexler.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item29">
+<a href="citadel.pdf"><img src="citadel.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item30">
+<a href="Harryp4.pdf"><img src="Harryp4.jpg" width="75%" height="80%">
+</a>
+</im>
+<div class="item31">
+<a href="More.html">
+MORE!!
+</a>
+</div>
+<div class="item32">
+
+</div>
+<div class="item33">
+</div>
+<div class="item34">
+</div>
+<div class="item35">
+Upcoming!!
+</div>
+<im class="item36">
+<a href="Avengers.html"><img src="Avengers.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item37">
+<a href="Fry day.html"><img src="Fry day.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item38">
+<a href="nps.html"><img src="nps.jpg" width="75%" height="80%">
+</a>
+</im>
+<im class="item39">
+<a href="kaala.html"><img src="kaala.PNG" width="75%" height="80%">
+</a>
+</im>
+<div class="item40">
+<a href="More.html">
+MORE!!</a>
+</div>
+<div class="item41">
+</div>
+<div class="item42">
+</div>
+<div class="item43">
+</div>
+<divb class="item44">
+<table><tr>
+<th>GENERAL</th>
+<td><a href="More.html">Upcoming</a></td>
+<td><a href="feedback.html">About us</a></td>
+<td><a href="feedback.html">Contacts</a></td>
+<td><a href="feedback.html">Feedback</a></td>
+</tr>
+</tr>
+<tr>
+<th>CINEMAs</th>
+<td><a href="cccccc.html">Locator</a></td>
+<td><a href="More.html">Now Showing</a></td>
+<td><a href="More.html">Books</a></td>
+<td><a href="Magazine.html">Magazines</a></td>
+<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>--</td>
+<td><a href="https://www.instagram.com"><img src="insta.PNG" width="32px" height=37px"></a><a href="https://www.facebook.com">
+<img src="fb.PNG" width="32px" height="37px"></a><a href="http://mail.google.com/mail">
+<img src="gmail.PNG" width="35px" height="40px"></a></td>
+<td>--</td>
+</tr>
+</divb>
+<script>
+var currentImage = 0,
+images = ["Baaghi 2l.jpg","Avengersl.jpg","High jackl.jpg","Kaalal.jpg","Missingl.jpg","Blackmaill.jpg"];
+
+function initSlideshow() {	
+		setImage(0);
+    setInterval(function(){
+    		nextImage();
+    },3000);
+}
+
+function nextImage() {
+if(images.length === currentImage + 1)
+{
+currentImage = 0;    
+} else {
+ currentImage++; }
+setImage(currentImage);
+}
+
+function setImage(image) {
+		document.querySelectorAll('.slide')[0].src = images[image];
+}
+
+window.onload = initSlideshow();
+function myfn()
+{
+i=document.getElementById("n").value
+j=document.getElementById("b").value
+c=i*j
+document.getElementById("q").innerHTML=c
+}
+function myf()
+{
+o=document.getElementById("b").value
+p=document.getElementById("n").value
+l=o*p
+document.getElementById("q").innerHTML=l
+}
+function func()
+{
+a=document.getElementById("m").value
+y=document.getElementById("d").value
+c=document.getElementById("t").value
+d=document.getElementById("n").value
+x=document.getElementById("b").value
+if(a==0||c==0||d==0||x==0||y=="")
+{
+if(a==0)
+{
+alert("Please Select Movie");
+}
+else if(y="")
+{
+alert("Please select date");
+}
+else if(c==0)
+{
+alert("Please Enter Time");
+}
+else if(d==0)
+{
+alert("Please Enter number of seats");
+}
+else if(x==0)
+{
+alert("Please select Seat type");
+}
+}else{
+alert("Thank you for Submission. You will be redirected to payment page!!");
+location.href="cccccc.html";
+}
+}
+</script>
+</body>
+</html>
